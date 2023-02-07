@@ -34,6 +34,7 @@ int main()
     for ( xinzhao = 1 ; xinzhao < 7 ; xinzhao++) {
          cout << zoe[xinzhao] << endl;
     }
+    
     return 0;
     
 }
