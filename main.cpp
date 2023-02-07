@@ -30,4 +30,11 @@ int main()
          cout << " sol false ";
     }
     return 0;
+    
+    int zoe[10] = {1,2,3,4,5,6}
+    for ( xinzhao = 1 ; xinzhao < 7 ; xinzhao++) {
+         cout << zoe[xinzhao] << endl;
+    }
+    return 0;
+    
 }
