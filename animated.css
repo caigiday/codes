@@ -1,0 +1,16 @@
+@keyframes real {
+  0% {background-color:red;}
+  25% {background-color:white;}
+  50% {background-color:black;}
+  75% {background-color:yellow;}
+  100% {background-color:aqua;}
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  animation-name: real;
+  animation-duration: 18s;
+  animation-delay: 2s;
+  animation-name: infinite;
+}
