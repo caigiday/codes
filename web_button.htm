@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Trang web có button
+    </title>
+  </head>
+  <body>
+    <style>
+      body {
+           background-image:url(https://media.discordapp.net/attachments/1047035958857564170/1075110885430939808/890097921742213180.png);
+      }
+    </style>
+    <script>
+      function web() {
+        document.getElementById("web").innerHTML="button đã được thay đổi";
+      }
+    </script>
+    <p id="web">
+      <i>
+        Nhấn vào nút !
+      </i>
+    </p>
+    <button type="button" onclick="web()">
+      <strong>
+        Nhấn vào tôi !
+      </strong>
+    </button>
+    <script>
+      function button2() {
+        document.getElementById("button2").innerHTML="Vẫn là button ? Đúng thế , vẫn là button !?";
+      }
+    </script>
+    <p id="button2">
+      Nhấn vào nút lần nữa !?
+    </p>
+    <button type="button" onclick="button2()">
+      <i>
+        Ấn vào đây
+      </i>
+    </button>
+    <style>
+      p {
+        color:black;
+      }
+    </style>
+    <p>
+      Tiếp theo sẽ là button !
+    </p>
+    <script>
+      function button3() {
+        document.getElementById("button3").innerHTML="Button cuối cùng !?"
+      }
+    </script>
+    <p id="button3">
+      <i>
+        Hãy click vào đây đi nào uwu !?
+      </i>
+    </p>
+    <button type="button" onclick="button3()">
+      <strong>
+        Nhấn vào đây !
+      </strong>
+    </button>
+  </body>
+</html>
